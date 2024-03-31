@@ -127,7 +127,7 @@
             bindings = <
 &trans     &kp N1          &kp N2        &kp N3          &kp N4           &kp N5       &kp F1   &kp F2   &kp F3    &kp F4   &kp F5   &tog 2
 &kp LSHFT  &kp NUMBER_6    &kp N7        &kp N8          &kp N9           &kp N0       &kp F6   &kp F7   &kp F8    &kp F9   &kp F10  &UN
-&kp LCTRL  &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans       &kp F11  &kp F12  &kp F13   &kp F14  &kp F15  &PW
+&kp LCTRL  &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp MINUS    &kp F11  &kp F12  &kp F13   &kp F14  &kp F15  &PW
                                          &kp ESCAPE      &kp DELETE       &kp SPACE    &kp RET  &trans   &kp RALT
             >;
         };
