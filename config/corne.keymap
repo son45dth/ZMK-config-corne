@@ -115,6 +115,7 @@
 &kp LCTRL  &kp Z  &kp X  &kp C             &kp D          &kp V          &kp M         &kp H          &kp COMMA  &kp DOT  &kp SLASH             &kp EQUAL
                          &mt LEFT_ALT RET  &kp BACKSPACE  &lt 1 SPACE    &mt LWIN RET  &kp SEMICOLON  &kp SQT
             >;
+                sensor-bindings = <&inc_dec_cp LC(PLUS) LC(MINUS)>;
         };
 
         lower_layer {
@@ -130,6 +131,7 @@
 &kp LCTRL  &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp MINUS    &kp F11  &kp F12  &kp F13   &kp F14  &kp F15  &PW
                                          &kp ESCAPE      &kp DELETE       &kp SPACE    &kp RET  &trans   &kp RALT
             >;
+                sensor-bindings = <&inc_dec_cp LC(PLUS) LC(MINUS)>;
         };
 
         raise_layer {
@@ -145,6 +147,7 @@
 &kp LSHFT  &kp Z  &kp X  &kp C      &kp V     &kp B        &kp N      &kp M     &kp COMMA  &kp DOT  &kp FSLH  &kp TILDE
                          &kp ENTER  &kp BSPC  &kp SPACE    &kp ENTER  &kp LALT  &kp LGUI
             >;
+                sensor-bindings = <&inc_dec_cp LC(PLUS) LC(MINUS)>;
         };
 
         both {
@@ -154,6 +157,7 @@
 &none  &none         &none         &none         &none         &none           &none       &none  &none  &none  &none  &none
                                    &none         &none         &none           &none       &none  &none
             >;
+                sensor-bindings = <&inc_dec_cp LC(PLUS) LC(MINUS)>;
         };
     };
 };
