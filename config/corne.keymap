@@ -138,7 +138,7 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans     &kp N1          &kp N2        &kp N3          &kp N4           &kp N5       &none           &none             &mmv MOVE_UP    &none            &none  &tog 2
+&none      &kp N1          &kp N2        &kp N3          &kp N4           &kp N5       &none           &none             &mmv MOVE_UP    &none            &none  &tog 2
 &kp LSHFT  &kp NUMBER_6    &kp N7        &kp N8          &kp N9           &kp N0       &none           &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none  &UN
 &kp LCTRL  &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp MINUS    &msc SCROLL_UP  &none             &none           &none            &none  &PW
                                          &kp ESCAPE      &kp DELETE       &kp SPACE    &mkp LCLK       &mwh SCROLL_DOWN  &mkp RCLK
