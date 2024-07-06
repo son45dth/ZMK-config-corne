@@ -147,7 +147,7 @@
 &trans     &kp N1          &kp N2        &kp N3          &kp N4           &kp N5       &none  &mwh SCROLL_LEFT  &mwh SCROLL_UP    &mwh SCROLL_RIGHT  &none  &tog 0
 &kp LSHFT  &kp NUMBER_6    &kp N7        &kp N8          &kp N9           &kp N0       &none  &mkp LCLK         &mkp MCLK         &mkp RCLK          &none  &UN
 &kp LCTRL  &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp MINUS    &none  &none             &mwh SCROLL_DOWN  &none              &none  &PW
-                                         &kp ESCAPE      &kp DELETE       &kp SPACE    &none  &none             &none
+                                         &kp ESCAPE      &kp DELETE       &trans       &none  &none             &none
             >;
         };
 
