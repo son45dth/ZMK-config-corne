@@ -70,7 +70,7 @@
         PW: PW {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp N1 &kp LS(T) &kp A &kp R &kp G &kp E &kp T &kp D &kp E &kp B &kp T &kp S &kp N2 &kp EXCL &kp N1>;
+            bindings = <&kp NUMBER_2 &kp LS(T) &kp A &kp R &kp G &kp E &kp T &kp D &kp E &kp B &kp T &kp S &kp N2 &kp EXCL &kp NUMBER_3>;
         };
 
         HTML: HTML {
