@@ -126,10 +126,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp F             &kp P         &kp B          &kp J         &kp L          &kp U      &kp Y    &kp NON_US_BACKSLASH  &to 1
-&kp LSHFT  &kp A  &kp R  &kp S             &kp T         &kp G          &kp K         &kp N          &kp E      &kp I    &kp O                 &kp MINUS
-&kp LCTRL  &kp Z  &kp X  &kp C             &kp D         &kp V          &kp M         &kp H          &kp COMMA  &kp DOT  &kp SLASH             &kp EQUAL
-                         &mt LEFT_ALT RET  &lt 2 DELETE  &lt 1 SPACE    &mt LWIN RET  &kp SEMICOLON  &kp SQT
+&kp TAB    &kp Q  &kp W  &kp F             &kp P            &kp B          &kp J         &kp L          &kp U      &kp Y    &kp NON_US_BACKSLASH  &to 1
+&kp LSHFT  &kp A  &kp R  &kp S             &kp T            &kp G          &kp K         &kp N          &kp E      &kp I    &kp O                 &kp MINUS
+&kp LCTRL  &kp Z  &kp X  &kp C             &kp D            &kp V          &kp M         &kp H          &kp COMMA  &kp DOT  &kp SLASH             &kp EQUAL
+                         &mt LEFT_ALT RET  &lt 2 BACKSPACE  &lt 1 SPACE    &mt LWIN RET  &kp SEMICOLON  &kp SQT
             >;
         };
 
@@ -162,7 +162,7 @@
 &none       &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 0    &none  &none  &none  &none  &none  &none
 &bt BT_CLR  &none         &none         &bt BT_PRV    &bt BT_NXT    &none           &none  &none  &none  &none  &none  &none
 &bt BT_CLR  &none         &none         &none         &none         &none           &none  &none  &none  &none  &none  &none
-                                        &none         &none         &to 0           &none  &none  &none
+                                        &none         &to 4         &to 0           &none  &none  &none
             >;
         };
 
