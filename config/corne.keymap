@@ -15,7 +15,7 @@
         compatible = "zmk,combos";
 
         both {
-            bindings = <&tog 4>;
+            bindings = <&tog 3>;
             key-positions = <38 0 5>;
         };
 
